@@ -39,8 +39,4 @@
     	console.log('Index: ' + i + ', element: ' + arr[i]);
   	}, 3000);
 }
-* List six comparison operators in javascript.
-* What are the primitive data types in javascript?
-* List two unit testing frameworks in javascript.
-* What is the use of the ‘this’ keyword?
-* How many ways can Javascript code be involved in an HTML file?
+* What is an infinite loop? What are the consequences?
