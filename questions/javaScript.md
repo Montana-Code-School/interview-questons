@@ -39,4 +39,4 @@
     	console.log('Index: ' + i + ', element: ' + arr[i]);
   	}, 3000);
 }
-*
+* What is an infinite loop? What are the consequences?
