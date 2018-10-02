@@ -40,3 +40,7 @@
   	}, 3000);
 }
 * What is an infinite loop? What are the consequences?
+* What is the difference between a method and a function in javascript?
+* Describe some steps you might take to debug a block of Javascript code.
+* Describe the differences between let, const, and var
+* What is React? 
