@@ -39,4 +39,6 @@
     	console.log('Index: ' + i + ', element: ' + arr[i]);
   	}, 3000);
 }
-*
+* What is the difference between var, let and const
+* List two ways in which the variable can be assigned to an empty object.
+* List and define the primitive data types. 
