@@ -3,6 +3,7 @@
 	* `this`
 	* `new`
 	* `window`
+	* `document`
 	* `process`
 * `.bind()`
 * `.call()`
