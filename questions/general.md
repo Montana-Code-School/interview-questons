@@ -9,3 +9,4 @@
 * Syntactical differences between es5 and es6?
 * When to use let, var, and const?
 * What are the pros to Object Oriented Programming? Cons?
+* Are attributes and property the same? If not, what is the difference?
