@@ -42,4 +42,41 @@ using the original object, neatly solves this problem:
  var boundGetX = retrieveX.bind(module);
  boundGetX(); // 81
 ```
-*
+# Keywords
+## `this`
+* context reference
+* _intended_ to refer to the focal OBJECT during method / function _invocation_ (when a method is called)
+* MOST OF THE TIME: The keyword this will be bound to the object that was to the left of the dot WHERE THE FUNCTION WAS CALLED
+* There are 5 run patterns in which `this` can appear
+  1. Global reference:
+      - looks like: `this`;
+      - binding target = global object (window in a browser)
+  2. Free function invocation:
+      - looks like: `functionName()`;
+      - binding target = global object
+  3. `.call`, `.apply`, or `.bind`:
+      - looks like: `fn.call(target)`, `obj.methodName.call(target)`,
+      `obj.methodName.bind(target)`;
+      - binding target = the first argument to call or apply or bind;
+      - this is to manually specify a `this` binding, like real arguments
+  4. Method invocation
+      - looks like: `target.methodName()`
+      - binding target: object on the left of the CALL TIME dot.
+      - purpose: so the moethods run in the ocntext of an object they're found on
+  5. Construction mode
+      - looks like: `new functionName()`;
+      - binding target: a new object created for that invocation
+      - purpose: so constructors operate on the instance they're creating
+
+## `new`
+(from http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript)
+
+It does 4 things:
+1. creates a new object
+2. it sets the new objects internal `prototype` property to be the constructor function's prototype object
+3. it executes the constructor function
+4. it returns the newly created object
+
+* `window` - A global object in the browser. It represents one open browser window. Other `window` objects will be created for any `<iframe>` tags in the window.
+* `document` - The root node of the HTML document when an HTML document is loaded into the browser
+* `process` - a global object that provides information about the _currently running_ Node.js process

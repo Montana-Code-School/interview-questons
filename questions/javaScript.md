@@ -3,6 +3,7 @@
 	* `this`
 	* `new`
 	* `window`
+	* `document`
 	* `process`
 * `.bind()`
 * `.call()`
@@ -44,3 +45,4 @@
 * Describe some steps you might take to debug a block of Javascript code.
 * Describe the differences between let, const, and var
 * What is React? 
+* What are some of the ways you can access HTML elements in JS?
