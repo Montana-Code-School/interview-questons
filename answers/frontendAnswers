@@ -1,0 +1,16 @@
+#### event bubbling
+- bubbling is best described by example
+```HTML
+  <form onclick="alert('form')">FORM
+    <div onclick="alert('div')">DIV
+      <p onclick="alert('p')">P</p>
+    </div>
+  </form>
+```
+
+- if we were to click the `<p>` element here, we would also trigger
+the events specified on its parent elements in order. We would get
+an alert 'p', then 'div', then, 'form'. This is known as bubbling.
+
+- often undesirable, bubbling can be contained by using the
+.stopPropagation() and .stopImmediatePropagation() methods.
