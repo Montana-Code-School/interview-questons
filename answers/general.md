@@ -1,7 +1,6 @@
 ## General
 * What is API and how is it used?
- - an API is an Application Programming Interface that      essentially allows access
-   to outside databases and the ability to manipulate and utilize the data within.
+ - an API is an Application Programming Interface that essentially allows access to outside databases and the ability to manipulate and utilize the data within.
 
 
 * Asynchronous code
