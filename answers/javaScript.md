@@ -64,3 +64,22 @@ i.e
          }
         var latte = new Coffee('caramel', 4);)
 ```
+* `.apply()`
+ - The .apply() method allows you to apply a method of one object on another object. It is similar to the .call() method but is also able to take an array as an argument.
+ i.e
+
+ ```JavaScript
+     let order = {
+       pizzaOrder: function(topping1, topping2) {
+         return this.size + " " + this.crust + ": " + topping1 + ", " + topping2;
+       }
+     }
+
+     let thisOrder = {
+       size: "large",
+       crust: "hand tossed"
+     }
+
+     console.log(order.pizzaOrder.apply(thisOrder, ["cheese", "pepperoni"]))
+     // expected output: large hand tossed: cheese, pepperoni
+ ```
