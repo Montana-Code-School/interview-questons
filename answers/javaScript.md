@@ -2,7 +2,7 @@
 * `null` vs `undefined`
  - Null means there is 'no value'. Undefined represents a    variable that has been declared but has not been assigned value, so has no value. Unassigned variables are initialized by JavaScript with the default value of undefined.Null assignment must be done programmatically.
 
-* What does `type of null` output? 
+* What does `type of null` output?
 - It returns 'object' while undefined is a type itself.
 
 * What is React?
@@ -44,6 +44,8 @@
 
 ##### `window`
  - A global object in the browser. It represents one open browser window. Other `window` objects will be created for any `<iframe>` tags in the window.
+ - The window object is also where all global variables are stored. Any methods stored globally become methods of the window object.
+ - Some common window methods are: alert(), open(), confirm(), and print().
 
 ##### `document`
  - The root node of the HTML document when an HTML document is loaded into the browser
@@ -59,7 +61,7 @@
 `var` is now the weakest signal available when you define a variable in JavaScript. The variable may or may not be reassigned, and the variable may or may not be used for an entire function, or just for the purpose of a block or loop.
 
 ## Why avoid using `var`?
-No error is thrown if you declare the same variable twice using `var` (conversely, both `let` and `const` will throw an error if a variable is declared twice).Variables declared with `var` are not block scoped (although they are function scoped), while with `let` and `const` they are. This is important because what’s the point of block scoping if you’re not going to use it. So using `var` in this context would require a situation in which a variable declared inside a function would need to be used in the global scope. 
+No error is thrown if you declare the same variable twice using `var` (conversely, both `let` and `const` will throw an error if a variable is declared twice).Variables declared with `var` are not block scoped (although they are function scoped), while with `let` and `const` they are. This is important because what’s the point of block scoping if you’re not going to use it. So using `var` in this context would require a situation in which a variable declared inside a function would need to be used in the global scope.
 
 
 #### Methods
