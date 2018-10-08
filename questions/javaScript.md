@@ -35,6 +35,7 @@
 * `.call()`
 * `.apply()`
 * `.pop()`
+* `.alert(), .confirm(), and .prompt()`
 
 #### Functions
 * Function expressions vs declarations
