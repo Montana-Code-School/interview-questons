@@ -37,10 +37,10 @@
 ##### `new`
  - *(from http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript)*
  - It does 4 things:
-    1. creates a new object
-    2. it sets the new objects internal `prototype` property to be the constructor function's prototype object
-    3. it executes the constructor function
-    4. it returns the newly created object
+    1. It creates an instance of an object.
+    2. It sets the new objects internal `prototype` property to be the constructor function's prototype object.
+    3. It executes the constructor function.
+    4. It returns the newly created object.
 
 ##### `window`
  - A global object in the browser. It represents one open browser window. Other `window` objects will be created for any `<iframe>` tags in the window.
