@@ -8,3 +8,4 @@ Think Basic.  For loops, variables.
 
  - [Pangram](./pangram)
  - [Split String in the Middle](./splitMiddleStr)
+ - [Split String in the Middle](./splitMiddleStr)
