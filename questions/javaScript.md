@@ -22,6 +22,7 @@
 * What is an infinite loop? What are the consequences?
 * What is React? 
 * Syntactical differences between es5 and es6?
+* List and define the primitive data types. 
 
 #### Keywords
 * `this`
@@ -47,6 +48,7 @@
 #### Objects
 * Prototypal inheritance
 	* What is an object's `prototype`?
+* List two ways in which the variable can be assigned to an empty object.
 
 #### Experiments
 * What do the following lines output, and why?
