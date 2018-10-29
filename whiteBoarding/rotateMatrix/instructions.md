@@ -1,4 +1,4 @@
-### Pangram
+### rotateMatrix
 
 Given an NxN character matrix, write a method to rotate the matrix clockwise by 90 degrees.
  Example 1:
