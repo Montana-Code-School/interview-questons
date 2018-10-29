@@ -33,7 +33,7 @@ It returns `object` while undefined is a type itself.
     4. Method invocation
       - looks like: `target.methodName()`
       - binding target: object on the left of the CALL TIME dot.
-      - purpose: so the moethods run in the ocntext of an object they're found on
+      - purpose: so the methods run in the context of an object they're found on
     5. Construction mode
       - looks like: `new functionName()`;
       - binding target: a new object created for that invocation
