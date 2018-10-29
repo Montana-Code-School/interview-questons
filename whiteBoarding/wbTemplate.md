@@ -6,6 +6,10 @@ Think Basic.  For loops, variables.
 
 ## TOC
 
+ - [Bubble Sort](./bubbleSort)
+ - [Count String](./countString)
+ - [DNA Pairing](./dnaPairing)
  - [Pangram](./pangram)
+ - [Get the probability that a char occurs in a string](./probOfCharInString)
  - [Split String in the Middle](./splitMiddleStr)
- - [Split String in the Middle](./splitMiddleStr)
+ - [Build String From Chars](./buildStrFromChars) 
