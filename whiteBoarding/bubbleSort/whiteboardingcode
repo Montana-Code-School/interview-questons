@@ -1,0 +1,29 @@
+// Whiteboarding Question, Monday, Oct. 30, 2018
+// Given an array, sort the array using bubbleSort and then return the array.
+
+function myBubble[arr] => {
+    var inspect = ( );
+    var arraylenth = arr.lenth;
+    var arrIndex = arr;
+    if (inspect = false;
+    for (var i = 0; i < arraylenth.length +1; i++)
+       {if arrIndex[i] < arrIndex[i+1])
+           {var tempArra = arrIndex[i];
+            arrIndex[i] = arrIndex[i+1];
+            arrIndex[i+1] = tempArra;
+            inspect = true;}}
+    arraylenth ++;
+}
+while (inspect);
+return arrIndex;
+}
+1.	set up a function that takes in an array of numbers (arr)
+2.	assign a variable to handle the decision of whether or not it should switch the order of the two numbers in an array (inspect)
+3.	assign a variable to count the length of the array (var arraylenth)
+4.	assign var arrIndex to be equal to the array
+5.	run a for loop to check each value and compare their values and decide if it should switch the 2 values.
+6.	if the first number in the array [i] is < the second number in the array [i + 1], then the code assigns the first number in the array into a new temporarily built array [tempArra] to house the final sorted array.
+7.	then assign the first value in the array and put it as the 2nd number in the array. assign it to the temp array. so it’s value is now stored as [1].
+8.	Then its going to go back to the beginning using the swapp function call, and its going to repeat the cycle to sort each number in the array.
+
+**Of note, the bubbleSort algorithm must loop through the array 3 times in order to correctly get all values sorted.**
