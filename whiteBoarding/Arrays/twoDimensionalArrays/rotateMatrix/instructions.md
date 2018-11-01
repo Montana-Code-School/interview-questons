@@ -12,4 +12,4 @@ Given an NxN character matrix, write a method to rotate the matrix clockwise by 
 
 #### Attempts
 
- - [Pangram - Will](./wmhRotateMatrix.js)
+ - [rotateMatrix - Will](./wmhRotateMatrix.js)
