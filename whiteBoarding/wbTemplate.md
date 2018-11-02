@@ -13,3 +13,9 @@ Think Basic.  For loops, variables.
  - [Get the probability that a char occurs in a string](./probOfCharInString)
  - [Split String in the Middle](./splitMiddleStr)
  - [Build String From Chars](./buildStrFromChars) 
+
+ - ### Arrays
+   - [Flatten nested Array](./Arrays/flattenNestedArray)
+   - [Rotate Matrix](./Arrays/twoDimensionalArrays/rotateMatrix)
+   - [Staircase](./Arrays/twoDimensionalArrays/staircase)
+   - [Stripes](./Arrays/twoDimensionalArrays/stripes)
