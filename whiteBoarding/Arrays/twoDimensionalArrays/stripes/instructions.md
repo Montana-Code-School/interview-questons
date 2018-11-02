@@ -10,3 +10,5 @@ Create a function that takes a number and returns a NxN array with the following
 
 
 #### Attempts
+
+- [stripes - Will](./wmhStripes.js)
